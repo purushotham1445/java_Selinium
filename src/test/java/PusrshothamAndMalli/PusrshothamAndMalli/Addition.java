@@ -8,7 +8,6 @@ public class Addition {
 		Scanner os = new Scanner(System.in);
 		int a = os.nextInt();
 		int b = os.nextInt();
-		int c = a+b;
-		System.out.println("Addition of a and b is: "+c);
+		System.out.println("Addition of a and b is: "+(a+b));
 	}
 }
